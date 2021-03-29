@@ -16,6 +16,7 @@ public class HashMapClass{
         System.out.println(capitalCities.get("Argentina"));
         System.out.println(capitalCities.size());
         capitalCities.remove("Germany");
-        System.out.println(capitalCities.size());
+        System.out.println(capitalCities.size()); 
+        capitalCities.put("España","Madrid");
     }
 }

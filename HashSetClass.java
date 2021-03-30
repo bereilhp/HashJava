@@ -15,5 +15,9 @@ public class HashSetClass {
 
             System.out.println(cars);
 
+            System.out.println(cars.contains("Volvo"));
+            System.out.println(cars.size());
+            cars.remove("Volvo");
+            System.out.println(cars.size());
     }
 }
